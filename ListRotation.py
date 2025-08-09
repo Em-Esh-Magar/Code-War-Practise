@@ -9,9 +9,8 @@ def ListRotation(arr,key):
         if next > len(arr)-1:
             next = next%len(arr)
             
-            array[next] = arr[i]
-        else:
-            array[next] = arr[i]            
+        
+        array[next] = arr[i]            
             
     return array
 
