@@ -1,3 +1,4 @@
+# brr is the original array, arr is the subset of brr 
 def missingNumbers(arr, brr):
     # Write your code here
     missing = []
